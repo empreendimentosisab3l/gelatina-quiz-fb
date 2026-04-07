@@ -85,7 +85,7 @@ export default function SalesPage({ data }) {
   const seconds = timeLeft % 60
   const timerStr = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
 
-  const buyUrl = 'https://fb.monjarogelatina.shop/click'
+  const buyUrl = 'https://red.track.fb.monjarogelatina.shop/click'
 
   return (
     <div className="min-h-screen bg-white">
